@@ -5,8 +5,8 @@ import { Icons } from "@/components/icons";
 
 export default function HowItWorks() {
   return (
-    <section className="py-12 bg-background">
-      <div className="container text-center">
+    <section className="py-12 bg-background w-full">
+      <div className="max-w-screen-xl mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold text-foreground mb-8">How It Works</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 justify-center">
           {/* Card 1 */}
@@ -55,4 +55,3 @@ export default function HowItWorks() {
     </section>
   );
 }
-
