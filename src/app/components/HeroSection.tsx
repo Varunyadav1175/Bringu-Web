@@ -29,7 +29,7 @@ export default function HeroSection() {
         // Simulate an API call
         await new Promise((resolve) => setTimeout(resolve, 500));
         setHeadline("Bringu: Connecting Travelers with Needs");
-        setSubheadline("Get what you love, delivered from anywhere in the world. Post trips if you’re traveling abroad or request items from those who are. Connect, chat & bring it home.");
+        setSubheadline("Get what you love, delivered from anywhere in the world. Post trips if you’re traveling abroad or request items from those who are. Connect, chat & bring it home!");
       } catch (error) {
         console.error("Failed to fetch data", error);
         toast({
